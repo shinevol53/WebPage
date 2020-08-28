@@ -6,8 +6,8 @@
 ### HTML
 - tag
 	- some extra tag
-	- <div> automatically change the line(when you get all)
-	- <span> not change line(when you don't get all)
+	- div automatically change the line(when you get all)
+	- span not change line(when you don't get all)
 
 ### CSS
 #### <h4 id="" class ="" style = "property: coral;">
@@ -15,3 +15,6 @@
 - class: when you apply to group
 - id: when you apply to one specific(exception)
 
+### JavaScript
+- interaction with user
+- button: night mode -> day mode vice versa 
