@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Peru Story-Welcome</title>
+        <meta charset="utf-8">
+        <link rel='stylesheet' href='style.css'>
+    </head>
+
+    <body>
+        <input type="button" value="night" onclick="
+
+        var target = document.querySelector('body');
+        if(this.value === 'night')
+        {target.style.backgroundColor ='black'; 
+        target.style.color = 'white';
+        this.value = 'day';
+
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while (i < alist.length) {
+            
+            alist[i].style.color = 'powderblue';
+            i = i+1;
+            }
+        } 
+        
+        else {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+            
+            var alist = document.querySelectorAll('a');
+            var i = 0;
+            while (i < alist.length) {
+                
+                alist[i].style.color = 'blue';
+                i = i+1;
+            }
+
+        }
+        ">
+    <h1>BOOK <br><a href='index.html'>《페루 그곳으로 더 가까이》</a> </h1>
+    
+    <div id=index>
+        <div>
+            <ol>
+            <li><a href="1.html">책소개</a></li>
+
+            <li><a href="2.html">차례</a></li>
+            
+            <li><a href="3.html">책 속으로</a></li>
+            
+            </ol>
+        </div>
+    
+    
+
+
+        <div>
+            <h2> 페루 그곳으로 더 가까이</h2>
+            <a href='http://www.yes24.com/Product/Goods/87015263' target='_blank' title='yes24link'><h4>yes24 </h4>
+            </a>        
+
+
+            <img src='bookcover.jpg' width='300'>
+        
+            <p>나중으로 미루기엔 나에게는 매일이 고민이었다.<br> 
+            <strong>그리고 <u>그 매일은, 내 삶</u>이었다.</strong> 
+            이제는 자신 있게 말할 수 있다. 
+            나는 도울 때, 가장 행복한 사람이라고. 
+            그렇게 내 오랜 방황의 첫 마침표를 찍을 수 있었다.</p>
+            <p style='margin-top:45px;'>지구 반대편, 
+            이 머나먼 곳 페루의 작은 도시 우앙까벨리까. 
+            저자는 그곳에서 함께 먹고 자고 생활하고, 
+            아이와 노인을 만나며 삶과 죽음을 보았다. 
+            황금의 도시 페루는 환상의 도시가 아니었다. 
+            그곳에서도 삶의 무게는 동일했고, 
+            저자는 그들을 도우며 비로소 자신이 살아있음을 느꼈다. 
+            그리고 자신은 도울 때 가장 행복한 사람임을 깨달았다. 
+            이 책은 이제야 꿈에 가까운 사람이 되어가는 
+            약 8개월 동안의 초보 봉사활동가 성장기를 담았다.</p>
+
+        </div>
+</div>            
+    </body>
+</html>
