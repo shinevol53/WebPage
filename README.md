@@ -31,3 +31,5 @@
 	- var target = document.querySelector('body')
 	- document.querySelector('body').style -> target.style
 	- 효과: 한 변수로 여러 곳에 두니, 반복되는 코드 수정 시, 변수에 지정된 코드만 변경하면 됨
+- 변경사항 3)
+	- 함수를 사용, 헤드 태그에 정리 후, body 태크 내에는 코드 단순화
